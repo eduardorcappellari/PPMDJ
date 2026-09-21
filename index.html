@@ -58,12 +58,13 @@ button:disabled{opacity:.5}.success{display:none;text-align:center}.success h2{f
 </div>
 
 <div class="card"><h2>5 · Energia e momentos</h2>
+<div class="hint" style="background:#0e1118;border:1px solid var(--line);border-radius:12px;padding:14px;margin:0 0 20px"><strong>🎧 Como responder esta parte</strong><br><br>Abra a música que você escolheu no seu player (Rekordbox, Serato, Spotify, arquivo local etc.) e deixe a faixa aberta enquanto responde. Você pode ouvir, voltar, avançar e pausar quantas vezes precisar.<br><br>Nos campos de tempo, informe <strong>o minuto e segundo aproximados</strong> em que você percebe cada acontecimento. Exemplo: <strong>01:24</strong> significa 1 minuto e 24 segundos.<br><br><strong>Não precisa acertar o segundo exato.</strong> Estamos interessados em saber <em>como você percebe a construção da música</em>.</div>
 <div class="q"><label>Energia geral da música (1–10)</label><input type="number" name="energy" min="1" max="10" value="5"></div>
 <div class="grid">
-<div class="q"><label>Onde começa a ganhar energia?</label><input name="energy_start" placeholder="01:24"></div>
-<div class="q"><label>Principal aumento de energia?</label><input name="energy_peak" placeholder="02:43"></div>
-<div class="q"><label>Maior queda de energia?</label><input name="energy_drop" placeholder="02:10"></div>
-<div class="q"><label>Momento de maior impacto?</label><input name="impact_time" placeholder="02:43"></div>
+<div class="q"><label>Onde começa a ganhar energia?</label><input name="energy_start" placeholder="Ex.: 01:24"><div class="hint">Procure na música o ponto em que você sente que ela começa a crescer.</div></div>
+<div class="q"><label>Principal aumento de energia?</label><input name="energy_peak" placeholder="Ex.: 02:43"><div class="hint">O momento em que você percebe o maior avanço de energia.</div></div>
+<div class="q"><label>Maior queda de energia?</label><input name="energy_drop" placeholder="Ex.: 02:10"><div class="hint">O momento em que a música mais alivia, recua ou tira elementos.</div></div>
+<div class="q"><label>Momento de maior impacto?</label><input name="impact_time" placeholder="Ex.: 02:43"><div class="hint">O ponto que, para você, tem maior impacto na pista ou na construção da faixa.</div></div>
 </div>
 <div class="q"><label>O que acontece nesse momento e por que ele é importante?</label><textarea name="impact_description"></textarea></div>
 </div>
